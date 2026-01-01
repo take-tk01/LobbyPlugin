@@ -1,0 +1,18 @@
+name: LobbyPlugin
+version: 1.0
+main: ham.plugin.lobbyplugin.main
+api-version: '1.20'
+description: Login sound, rule book, and move particles
+commands:
+  lobbyclose:
+    description: Close rulebook and show welcome title
+    usage: /lobbyclose
+  lobbylogin:
+    description: Play login sound for you or a target
+    usage: /lobbylogin [player]
+  lobbyfirstjoin:
+    description: Force first-join book for you or a target
+    usage: /lobbyfirstjoin [player]
+  lobbyreload:
+    description: Reload the plugin configuration
+    usage: /lobbyreload

@@ -1,0 +1,35 @@
+login-sound:
+  enabled: true
+  sound: minecraft:ui.toast.challenge_complete
+  volume: 1.0
+  pitch: 1.0
+
+rulebook:
+  enabled: true
+  title: "Server Rules"
+  author: "Server"
+  open-delay-ticks: 20
+  pages:
+    - "&0=== ようこそ！ ===\n\n&0Hoxica Nexus Serverへようこそ！\n\nルールをしっかり守って楽しい時間を過ごそう！"
+    - "&1プレイヤー間のマナー\n&4• 暴言・煽り・嫌がらせ禁止\n• 建築物・土地の破壊や改造厳禁\n• 許可なくチェスト等を開けたり持ち出さない\n• 動物・村人の無断殺害禁止"
+    - "&2建築・景観の規則\n&7• 景観を大きく損なう破壊行為禁gra止\n• スポーン等公共エリアでの大規模建築禁止\n• 採掘跡は放置せず整地\n• 近隣での無断建築は必ず相談"
+    - "&3PvP・戦闘\n&7• PvPは許可場所・ルール内のみ\n• 無断での攻撃は禁止\n• 罠やトラップは安全確認（無差別設置禁止）"
+    - "&4アイテム・資源\n&7• TNTや溶岩など危険物の乱用禁止\n• 資源の独占はNG\n• 自動化はサーバー負荷に配慮"
+    - "&5チャットのマナー\n&7• 暴言・差別的・性的表現は禁止\n• 過度な宣伝やスパム禁止\n• 読みやすいチャットを心掛ける"
+    - "&6バグ・チート・外部ツール\n&7• 不正改造クライアントは禁止\n• バグの悪用禁止（見つけたら報告）\n• X-Ray / Fly / KillAuraなど禁止"
+    - "&7運営への協力\n&7• スタッフの指示に従う\n• ルール違反は報告\n• 嫌がらせ目的の通報は控える"
+    - "&8罰則について\n&7• 軽度：警告/短期BAN\n• 中程度：数日〜数週間BAN\n• 重大：永久BAN（再参加不可）"
+    - "&c【重要】アカウント管理⚠\n&7行為は名義者の責任\n他人が操作しても本人責任\n例：家族/友人が勝手に使用\n知らない間に使用\n『自分はやっていない』でも処罰対象"
+  close-button:
+    enabled: true
+    header: "&6=== 終了 ===\n\n"
+    text: "&a[閉じる](統合版の方は1分後に自動で閉じます)"
+  welcome-title: "&aようこそ！"
+  welcome-subtitle: "&0楽しい時間を過ごそう！"
+
+move-particles:
+  enabled: true
+  particle: CLOUD
+  count: 3
+  sprint-count: 8
+  offset-y: 0.1
