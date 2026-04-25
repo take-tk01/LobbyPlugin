@@ -301,7 +301,8 @@ public class main extends JavaPlugin implements Listener {
     public void onPlayerMove(PlayerMoveEvent event) {
         Player player = event.getPlayer();
         FileConfiguration config = getConfig();
-        if (!config.getBoolean("move-particles.enabled", true)) return;
+        GameMode gameMode = event.getPlayer().getGameMode();
+        if (!config.getBoolean("move-particles.enabled.default",true) || !config.getBoolean("move-particles.enabled." + gameMode.name().toLowerCase(), true)) return;
 
         Location from = event.getFrom();
         Location to = event.getTo();
