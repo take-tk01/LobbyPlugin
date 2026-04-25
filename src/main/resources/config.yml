@@ -28,7 +28,12 @@ rulebook:
   welcome-subtitle: "&0楽しい時間を過ごそう！"
 
 move-particles:
-  enabled: true
+  enabled:
+    default: true
+    adventure: true
+    creative: true
+    spectator: true
+    survival: true
   particle: CLOUD
   count: 3
   sprint-count: 8
